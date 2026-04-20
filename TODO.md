@@ -1,1 +1,0 @@
-# Fix Syntax Errors in Deployment Scripts\n\n- [x] Step 1: Create this TODO.md\n- [x] Step 2: Fix ROOT syntax in deploy.sh\n- [x] Step 3: Fix ROOT syntax in destroy.sh (full fix)\n- [x] Step 4: Fix ROOT syntax in status.sh (full fix)\n- [ ] Step 5: Verify syntax with bash -n\n- [ ] Step 6: Complete task
