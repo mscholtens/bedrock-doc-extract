@@ -1,0 +1,1 @@
+1. Edit `scripts/secrets.env` with your AWS IAM user keys (permissions for CloudFormation/CDK bootstrap/S3/EB/IAM/Textract/Bedrock/STS).&#10;2. `source scripts/secrets.env`&#10;3. `./scripts/deploy.sh`

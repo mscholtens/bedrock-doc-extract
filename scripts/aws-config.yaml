@@ -1,0 +1,18 @@
+aws:
+  region: "eu-central-1"
+  default_region: "eu-central-1"
+  access_key_id: "PLACEHOLDER"
+  secret_access_key: "PLACEHOLDER"
+
+cdk:
+  cdk_stack_name: "CDKToolkit"
+  ebs_stack_name: "BedrockDocExtractStack"
+
+elastic_beanstalk:
+  app_name: "bedrock-doc-extract"
+  env_name: "bedrock-doc-extract-env"
+  solution_stack: "64bit Amazon Linux 2023 v6.10.1 running Node.js 24"
+
+bedrock:
+  model_id: "eu.amazon.nova-micro-v1:0"
+

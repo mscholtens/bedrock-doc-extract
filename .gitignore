@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Next.js
+app/web/.next/
+app/web/out/
+
+# Env and secrets (never commit real keys)
+.env
+.env.*
+!.env.example
+
+# CDK
+infra/cdk/cdk.out/
+infra/cdk/*.js
+infra/cdk/*.d.ts
+!infra/cdk/jest.config.js
+
+# Python
+__pycache__/
+*.py[cod]
+**/__pycache__/
+.venv*/
+venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# EB / deploy artifacts
+*.zip
+dist/
+
+# Deploy secrets
+scripts/secrets.env
+
+# Logs
+*.log
+
